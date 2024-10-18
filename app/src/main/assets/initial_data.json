@@ -1,0 +1,142 @@
+{
+  "sprache": [
+    {
+      "name": "Englisch",
+      "kapitel": [
+        {
+          "titel": "Grundlagen",
+          "beschreibung": "Einführung in die englische Sprache",
+          "kapitelnummer": 1,
+          "spracheID": 1,
+          "wort": [
+            {
+              "wort": "Hello",
+              "uebersetzung": "Hallo"
+            },
+            {
+              "wort": "Goodbye",
+              "uebersetzung": "Auf Wiedersehen,Tschüss,Ciao"
+            },
+            {
+              "wort": "Good Morning",
+              "uebersetzung": "Guten Morgen"
+            },
+            {
+              "wort": "Thank you",
+              "uebersetzung": "Danke,Danke Schön,Danke dir"
+            },
+            {
+              "wort": "Yes",
+              "uebersetzung": "Ja"
+            },
+            {
+              "wort": "No",
+              "uebersetzung": "Nein"
+            },
+            {
+              "wort": "Good Night",
+              "uebersetzung": "Gute Nacht"
+            },
+            {
+              "wort": "Please",
+              "uebersetzung": "Bitte"
+            },
+            {
+              "wort": "Excuse me",
+              "uebersetzung": "Entschuldigung"
+            },
+            {
+              "wort": "You're welcome",
+              "uebersetzung": "Gern geschehen,gerne"
+            }
+          ]
+        },
+        {
+          "titel": "Fortgeschrittene Grammatik",
+          "beschreibung": "Komplexere Regeln",
+          "kapitelnummer": 2,
+          "spracheID": 1,
+          "wort": [
+            {
+              "wort": "Nevertheless",
+              "uebersetzung": "Nichtsdestotrotz"
+            },
+            {
+              "wort": "Furthermore",
+              "uebersetzung": "Außerdem"
+            },
+            {
+              "wort": "However",
+              "uebersetzung": "Jedoch"
+            },
+            {
+              "wort": "Therefore",
+              "uebersetzung": "Deshalb"
+            },
+            {
+              "wort": "Consequently",
+              "uebersetzung": "Folglich"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Französisch",
+      "kapitel": [
+        {
+          "titel": "Grundlagen",
+          "beschreibung": "Einführung in die französische Sprache",
+          "kapitelnummer": 1,
+          "spracheID": 2,
+          "wort": [
+            {
+              "wort": "Bonjour",
+              "uebersetzung": "Guten Morgen"
+            },
+            {
+              "wort": "Merci",
+              "uebersetzung": "Danke"
+            },
+            {
+              "wort": "Au revoir",
+              "uebersetzung": "Auf Wiedersehen,Tschüss,Ciao"
+            },
+            {
+              "wort": "Oui",
+              "uebersetzung": "Ja"
+            },
+            {
+              "wort": "Non",
+              "uebersetzung": "Nein"
+            }
+          ]
+        },
+        {
+          "titel": "Fortgeschrittene Grammatik",
+          "beschreibung": "Komplexere Regeln",
+          "kapitelnummer": 2,
+          "spracheID": 2,
+          "wort": [
+            {
+              "wort": "Cependant",
+              "uebersetzung": "Jedoch"
+            },
+            {
+              "wort": "Toutefois",
+              "uebersetzung": "Dennoch"
+            },
+            {
+              "wort": "Ainsi",
+              "uebersetzung": "Somit"
+            },
+            {
+              "wort": "Par conséquent",
+              "uebersetzung": "Folglich"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

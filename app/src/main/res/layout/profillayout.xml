@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/hintergrundfarbe">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Einstellungen"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Name"
+        android:textSize="23sp"
+        app:layout_constraintTop_toBottomOf="@id/textView"/>
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="E-Mail"
+        android:textSize="23sp"
+        app:layout_constraintTop_toBottomOf="@id/textViewName"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxAutoLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="21sp"
+        android:text="Auto Login"
+        app:layout_constraintTop_toBottomOf="@id/textViewEmail"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/textViewAbmelden"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Abmelden"
+        android:textSize="28sp"
+        app:layout_constraintTop_toBottomOf="@id/checkBoxAutoLogin"/>
+
+    <Button
+        android:id="@+id/buttonAbmeldenBestaetigen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abmelden bestätigen"
+        android:layout_marginStart="20dp"
+        android:visibility="gone"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewAbmelden"/>
+
+
+    <TextView
+        android:id="@+id/textViewFortschrittLoeschen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Fortschritt löschen"
+        android:textSize="28sp"
+        app:layout_constraintTop_toBottomOf="@id/buttonAbmeldenBestaetigen"/>
+
+    <Button
+        android:id="@+id/buttonFortschrittLoeschenBestaetigen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Löschen bestätigen"
+        android:layout_marginStart="20dp"
+        android:visibility="gone"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewFortschrittLoeschen"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

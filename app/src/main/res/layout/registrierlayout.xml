@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hintergrundbild">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="250dp"
+            android:layout_height="270dp"
+            android:layout_gravity="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/runder_viereck_hintergrund"
+            android:alpha="0.7"/>
+
+        <TextView
+            android:id="@+id/loginTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registrierung"
+            android:layout_gravity="center"
+            android:layout_marginBottom="115dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="#DBDBDB"
+            android:layout_gravity="center"
+            android:layout_marginBottom="80dp"
+            android:hint="Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextEmailAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="#DBDBDB"
+            android:layout_gravity="center"
+            android:layout_marginBottom="37dp"
+            android:hint="E-Mail"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="#DBDBDB"
+            android:layout_gravity="center"
+            android:layout_marginTop="7dp"
+            android:hint="Passwort"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/editTextPasswordWiederholen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="#DBDBDB"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:hint="Passwort wiederholen"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/speichernButton"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="55dp"
+            android:alpha="0.7"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:text="Speichern" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="55dp"
+            android:alpha="0.7"
+            android:backgroundTint="#FF2323"
+            android:textColor="@color/black"
+            android:text="zurück" />
+
+        <ProgressBar
+            android:id="@+id/loading_spinner"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"/>
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

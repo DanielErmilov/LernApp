@@ -1,0 +1,6 @@
+<resources>
+    <declare-styleable name="MyTheme">
+        <attr name="hintergrundfarbe" format="color" />
+        <attr name="gegenteilhintergrundfarbe" format="color" />
+    </declare-styleable>
+</resources>

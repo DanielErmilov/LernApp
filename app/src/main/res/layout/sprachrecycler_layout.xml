@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sprachenConstraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewSprache"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sprache"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonLernen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lernen"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSprache" />
+
+    <Button
+        android:id="@+id/buttonPruefen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prüfen"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSprache" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
